@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.top-container{
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+.main-header{
+    padding: 10px 16px;
+    background-color: #555;
+    color: #f1f1f1;
+    position: sticky;
+    top: 0;
+}
+.content{
+    padding: 16px;
+}
+.content p{
+    margin: 16px 0 0;
+}
