@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --theme-color-light: #b1e3e6;
+    --theme-color: #00a3ab;
+    --theme-color-dark: #006f79;
+    --theme-background-color-light: #555555;
+    --theme-background-color: #333333;
+    --theme-background-color-dark: #111111;
+    --header-height: 44px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--theme-color-dark);
+}
+
+img {
+    display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: var(--header-height);
+    background-color: var(--theme-background-color);
+}
+
+.main-header .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: var(--header-height);
+    margin-left: 20px;
+}
+
+.main-header .logo img {
+    height: var(--header-height);
+}
+
+.main-header .navigation nav {
+    display: flex;
+    height: 100%;
+}
+
+.main-header .navigation a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 80px;
+    color: var(--theme-color);
+}
+
+.main-header .navigation a:hover {
+    color: var(--theme-color-light);
+    background-color: var(--theme-background-color-dark);
+}
